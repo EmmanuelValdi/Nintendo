@@ -1,6 +1,7 @@
 body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+/* -- Navbar -- */
 .banner {
     background-color: rgb(203, 0, 2);;
     background-size: cover;
@@ -24,6 +25,15 @@ body {
 .navbar-brand:hover {
     color: #ffffff;
 }
+.badge {
+    color: rgb(203, 0, 2);
+}
+.badge:hover {
+    background-color: rgb(203, 0, 2);
+    color: #ffffff;
+    border-color: #ffffff;
+}
+/* -- Header -- */
 .img-one {
     padding: 170px 0px 0px 150px;
 }
@@ -33,14 +43,6 @@ body {
 .content-center {
     padding: 170px 170px 0px 0px;
     text-align: center;
-}
-.badge {
-    color: rgb(203, 0, 2);
-}
-.badge:hover {
-    background-color: rgb(203, 0, 2);
-    color: #ffffff;
-    border-color: #ffffff;
 }
 .btn {
     border-radius: 0px;
